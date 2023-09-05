@@ -1,19 +1,23 @@
-import React from 'react'
-import Proyectos from './proyectos.css'
+import React, { useState } from 'react';
+import './proyectos.css'; // Asegúrate de importar tu archivo CSS correctamente
+import Img1 from './img1.png'; // Ruta relativa a la imagen img1.png
 
-export default function 
-() {
-  return (
-    <div className='proyectos'>
-        <div className='rows'>
-            <div className='rows-a'>
-                <div className='image'> asdasd</div>
-            </div>
-            <div className='rows-b'>
-                <div className='image1'>asdasd</div>
-                <div className='image2'>asdasd</div>
-            </div>
-        </div> className='image'
-    </div>
-  )
-}
+export default function Proyectos() {
+    return (
+      <div className="gallery">
+        <div className="row">
+          <div className="top-image">
+            <img src={Img1} alt="Imagen 3" />
+          </div>
+        </div>
+        <div className="row">
+          <div className="item">
+            <img src={Img1} alt="Imagen 1" />
+          </div>
+          <div className="item">
+            <img src={Img1} alt="Imagen 2" />
+          </div>
+        </div>
+      </div>
+    );
+  }
