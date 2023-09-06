@@ -9,10 +9,10 @@ export default function App() {
   };
 
   return (
-    <div>
-      <h1>Mi Aplicación</h1>
-      <p>contactame a mi correo electronico en el boton de abajo, asepto toda clase de recomendaciones </p>
-      <button onClick={sendEmail}>Enviar Correo</button>
+    <div className='conten' style={{backgroundColor:"#3d5a80", padding:"0px", margin:"0px",}}>
+      <h1 className='text' style={{textAlign:'center', padding:'20px'}}>Mi Aplicación</h1>
+      <p className='tex' style={{textAlign:'justify'}}>contactame a mi correo electronico en el boton de abajo, asepto toda clase de recomendaciones </p>
+      <button onClick={sendEmail} className='button'  style={{ backgroundColor:"black", color:"white"}}>Enviar Correo</button>
     </div>
   );
 }
