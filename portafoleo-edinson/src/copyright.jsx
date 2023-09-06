@@ -13,7 +13,7 @@ export default function Footer() {
       height: '40vh',         
     }}>
       <div style={{ display: 'flex', alignItems: 'center', color:'black' }}>
-        <a href="https://www.linkedin.com/in/edinson-ramirez-703ab1226/">
+        <a href="https://www.linkedin.com/in/edinsonramireza11/">
           <BiLogoLinkedinSquare size={30} style={{ marginRight: '10px',  color:'black' }} />
         </a>
         <a href="https://github.com/edinsonRmz">
