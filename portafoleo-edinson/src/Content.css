@@ -19,7 +19,7 @@
 .content {
     flex-shrink: 0;
     width: 1000px;
-    height: min-content; /* 355px */
+    height: min-content; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,7 +37,7 @@
   .edinson-ramirez-a {
     flex-shrink: 0;
     width: 100%;
-    height: auto; /* 88px */
+    height: auto; 
     white-space: pre-wrap;
     word-wrap: break-word;
     word-break: break-word;
@@ -57,7 +57,7 @@
   .buttons {
     flex-shrink: 0;
     width: 100%;
-    height: min-content; /* 44px */
+    height: min-content; 
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -74,8 +74,8 @@
   .button {
     box-sizing: border-box;
     flex-shrink: 0;
-    width: min-content; /* 186px */
-    height: min-content; /* 44px */
+    width: min-content; 
+    height: min-content;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -92,8 +92,8 @@
 
   .ver-proyectos {
     flex-shrink: 0;
-    width: auto; /* 146px */
-    height: auto; /* 24px */
+    width: auto; 
+    height: auto; 
     white-space: pre;
     overflow: visible;
     position: relative;
@@ -110,8 +110,8 @@
   .button {
     box-sizing: border-box;
     flex-shrink: 0;
-    width: min-content; /* 130px */
-    height: min-content; /* 44px */
+    width: min-content; 
+    height: min-content; 
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -128,8 +128,8 @@
 
   .contacto {
     flex-shrink: 0;
-    width: auto; /* 90px */
-    height: auto; /* 24px */
+    width: auto; 
+    height: auto; 
     white-space: pre;
     overflow: visible;
     position: relative;
@@ -145,7 +145,7 @@
   .center-vertically {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra horizontalmente */
-    justify-content: center; /* Centra verticalmente */
-    height: 100%; /* Ajusta la altura del contenedor para centrar verticalmente */
+    align-items: center; 
+    justify-content: center; 
+    height: 100%; 
   }

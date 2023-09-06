@@ -4,6 +4,8 @@ import ComponentText from './ComponetText';
 import Proyectos from './Proyectos';
 import Tecnologias from './Tecnologias';
 import Wrapper from './Wrapper';
+import Copyright from './copyright';
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
       <Proyectos/>
       <Tecnologias/>
       <Wrapper/>
+      <Copyright/>
     </div>
   );
 }

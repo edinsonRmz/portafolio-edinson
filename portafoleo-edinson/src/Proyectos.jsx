@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import './proyectos.css'; // Asegúrate de importar tu archivo CSS correctamente
-import Img1 from './img1.png'; // Ruta relativa a la imagen img1.png
+import './proyectos.css'; 
+import Img1 from './img1.png'; 
 
 export default function Proyectos() {
     return (

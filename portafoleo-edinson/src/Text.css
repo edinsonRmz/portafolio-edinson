@@ -2,7 +2,7 @@
     box-sizing: border-box;
     flex-shrink: 0;
     width: 100%;
-    height: min-content; /* 448px */
+    height: min-content; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -21,7 +21,7 @@
   .content {
     flex-shrink: 0;
     width: 1px;
-    height: min-content; /* 248px */
+    height: min-content; 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -41,7 +41,7 @@
   .presentación {
     flex-shrink: 0;
     width: 1000px;
-    height: auto; /* 58px */
+    height: auto; 
     white-space: pre-wrap;
     word-wrap: break-word;
     word-break: break-word;
@@ -60,7 +60,7 @@
   .text1 {
     flex-shrink: 0;
     width: auto;
-    height: min-content; /* 150px */
+    height: min-content; 
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -79,7 +79,7 @@
     flex-shrink: 0;
     flex: 1 0 0px;
     width: auto;
-    height: auto; /* 150px */
+    height: auto; 
     white-space: pre-wrap;
     word-wrap: break-word;
     word-break: break-word;
@@ -99,7 +99,7 @@
     flex-shrink: 0;
     flex: 1 0 0px;
     width: auto;
-    height: auto; /* 150px */
+    height: auto; 
     white-space: pre-wrap;
     word-wrap: break-word;
     word-break: break-word;
