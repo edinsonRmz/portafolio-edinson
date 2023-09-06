@@ -14,12 +14,12 @@ export default function Tecnologias() {
         <div>
             <h2>Tecnologias</h2>
             <div>
-                <img src={Img1} alt="" />
-                <img src={Img2} alt="" />
-                <img src={Img3} alt="" />
-                <img src={Img4} alt="" />
-                <img src={Img5} alt="" />
-                <img src={Img6} alt="" />
+                <img src={Img1} alt="html" />
+                <img src={Img2} alt="css" />
+                <img src={Img3} alt="Js" />
+                <img src={Img4} alt="react" />
+                <img src={Img5} alt="photoshop" />
+                <img src={Img6} alt="figma" />
 
             </div>
         </div>
