@@ -14,7 +14,7 @@ export default function Tecnologias() {
         <div>
             <h2>Tecnologias</h2>
             <div>
-                <img className='' src={Img1} alt="" />
+                <img src={Img1} alt="" />
                 <img src={Img2} alt="" />
                 <img src={Img3} alt="" />
                 <img src={Img4} alt="" />
